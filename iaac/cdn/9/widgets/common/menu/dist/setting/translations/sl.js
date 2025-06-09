@@ -1,1 +1,0 @@
-System.register([],(function(e){return{execute:function(){e({subMenuExpandMode:"Na\u010din pove\u010dave podmenija",mainMenu:"Glavni meni",subMenu:"Podmeni"})}}}));
