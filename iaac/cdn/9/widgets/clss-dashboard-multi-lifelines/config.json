@@ -1,0 +1,18 @@
+{
+  "fontSize": 30,
+  "color": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "appId": "6Dqm4yxwIFFNtcAx",
+  "portalUrl": "https://ngdomops.maps.arcgis.com",
+  "feedbackUrl": "",
+  "featureServiceItemId": "164651fd7c884d2fa12cd5c8624b6ae5",
+  "featureServiceSourceLabel": "CLSS_FeatureService_NGNC_IAAC",
+  "featureServiceUrl": "https://services1.arcgis.com/Db1xAiSxphB6ddWB/arcgis/rest/services/CLSS_FeatureService_NGNC_IAAC/FeatureServer",
+  "clssFolderId": "4fc0e6a155c94369b40677104feb702f",
+  "mapId": "a43b79321f2440528e87cc2f9bb431b1",
+  "mapSourceLabel": "CLSS_WebMap_NGNC_IAAC",
+  "latestAssessmentViewUrl": "",
+  "allAssessmentViewUrl": "",
+  "hostOrganizationViewUrl": "https://services3.arcgis.com/j2a3SeWN04oskFYa/arcgis/rest/services/CLSS_FeatureService_Organization_Dev/FeatureServer/2",
+  "assessmentsViewUrl": "https://services3.arcgis.com/j2a3SeWN04oskFYa/arcgis/rest/services/CLSS_All_Assessments_View_Dev/FeatureServer"
+}
