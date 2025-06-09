@@ -1,0 +1,30 @@
+{
+  "1711734910342": {
+    "originalName": "question-mark.png",
+    "fileName": "1711734910342.png",
+    "size": 43305,
+    "url": "${appResourceUrl}/images/widget_396/1711734910342.png",
+    "created": 1711734910342,
+    "resourcesPrefix": "images/widget_396",
+    "referedIds": [],
+    "originId": "1711734910342",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 920,
+    "originalHeight": 1002
+  },
+  "1711735062696": {
+    "originalName": "OIP.jpg",
+    "fileName": "1711735062696.jpg",
+    "size": 6021,
+    "url": "${appResourceUrl}/images/widget_398/1711735062696.jpg",
+    "created": 1711735062696,
+    "resourcesPrefix": "images/widget_398",
+    "referedIds": [],
+    "originId": "1711735062696",
+    "fileFormat": "image/jpeg",
+    "isUseCompress": false,
+    "originalWidth": 237,
+    "originalHeight": 256
+  }
+}
