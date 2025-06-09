@@ -8,7 +8,7 @@
 
 This repository hosts and supports Geographic Information Systems (GIS) web applications designed specifically to enhance the operational capabilities of the North Carolina National Guard (NCNG). Through this repository, users can access interactive maps, operational dashboards, and geospatial analytical tools for mission planning, situational awareness, and resource management.
 
-Access our applications here: [https://ngnc-gis.github.io](https://ngnc-gis.github.io)
+Access our applications here: [https://ngnc-gis.github.io/home](https://ngnc-gis.github.io/home)
 
 ---
 
@@ -42,7 +42,7 @@ Access our applications here: [https://ngnc-gis.github.io](https://ngnc-gis.gith
 
 All hosted GIS applications can be accessed from the main GitHub Pages site:
 
-[NCNG GIS Applications Homepage](https://ngnc-gis.github.io)
+[NCNG GIS Applications Homepage](https://ngnc-gis.github.io/home)
 
 Individual application usage instructions can be found within each application or on the accompanying documentation pages.
 
