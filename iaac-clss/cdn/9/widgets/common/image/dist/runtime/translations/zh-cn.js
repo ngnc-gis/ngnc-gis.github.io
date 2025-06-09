@@ -1,1 +1,0 @@
-System.register([],(function(e){return{execute:function(){e({_widgetLabel:"\u5f71\u50cf",imageChooseShape:"\u5f62\u72b6",imageCrop:"\u88c1\u5207"})}}}));

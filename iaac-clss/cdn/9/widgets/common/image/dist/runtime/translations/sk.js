@@ -1,1 +1,0 @@
-System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Obr\xe1zok",imageChooseShape:"Tvar",imageCrop:"Oreza\u0165"})}}}));

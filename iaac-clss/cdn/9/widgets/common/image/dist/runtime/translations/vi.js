@@ -1,1 +1,0 @@
-System.register([],(function(e){return{execute:function(){e({_widgetLabel:"H\xecnh \u1ea3nh",imageChooseShape:"H\xecnh d\u1ea1ng",imageCrop:"C\u1eaft"})}}}));
