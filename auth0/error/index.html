@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error - Something Went Wrong</title>
+    
+    <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Use Inter as the default font */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+    <link rel="icon" href="https://files.nc.gov/nc-national-guard/NCNGLogo2022-FullColor01-250.png?VersionId=91VKWYn1EE1bRfwcrOuomskM66r46VsC" type="image/png">
+</head>
+<body class="bg-gray-900 flex items-center justify-center min-h-screen p-4">
+
+    <div class="w-full max-w-md bg-white rounded-xl shadow-2xl p-8 space-y-6">
+        
+        <div class="flex justify-center">
+            <img 
+                src="https://files.nc.gov/nc-national-guard/NCNGLogo2022-FullColor01-250.png?VersionId=91VKWYn1EE1bRfwcrOuomskM66r46VsC" 
+                alt="NCNG Logo" 
+                class="h-20 w-20"
+                onerror="this.onerror=null; this.src='https://placehold.co/80x80/cccccc/ffffff?text=NCNG';">
+        </div>
+
+        <div class="text-center">
+            <h1 class="text-3xl font-bold text-red-600">
+                Oops! Something Went Wrong
+            </h1>
+            <p class="mt-2 text-md text-gray-700">
+                We encountered an unexpected issue. You'll be redirected to our generic error page shortly.
+            </p>
+        </div>
+
+        <div class="text-center bg-gray-100 p-4 rounded-lg">
+            <p class="text-sm text-gray-600">
+                If the problem persists, please contact support at:
+            </p>
+            <p class="text-md font-medium text-blue-700 mt-1">
+                <a href="mailto:ngnc-gis@army.mil">ngnc-gis@army.mil</a>
+            </p>
+        </div>
+
+    </div>
+
+    <script>
+        // Redirect after a short delay (e.g., 5 seconds)
+        setTimeout(function() {
+            // *** IMPORTANT: Replace this with your actual ngnc gis generic error page URL ***
+            window.location.href = "https://ncguardview.maps.arcgis.com/sharing/oauth2/authorize?client_id=arcgisonline&response_type=code&state=%7B%22portalUrl%22%3A%22https%3A%2F%2Fncguardview.maps.arcgis.com%22%2C%22uid%22%3A%22frsiREmAD-OxwgRcPGY_fxXGXb8aXnRO7jTKOuBtFVs%22%2C%22returnUrl%22%3A%22https%3A%2F%2Fncguardview.maps.arcgis.com%2Fhome%2Findex.html%22%2C%22useLandingPage%22%3Afalse%2C%22clientId%22%3A%22arcgisonline%22%7D&expiration=20160&locale=en&redirect_uri=https%3A%2F%2Fncguardview.maps.arcgis.com%2Fhome%2Faccountswitcher-callback.html&redirectToUserOrgUrl=true&code_challenge=2KOFdmmJJWJ0tGY94OW716RVLeO1-HV-9RnvUSPQD_A&code_challenge_method=S256&display=default&force_login=false&hideCancel=true&showSignupOption=true&canHandleCrossOrgSignIn=true&signuptype=esri&allow_verification=true"; 
+        }, 5000); // 5000 milliseconds = 5 seconds
+    </script>
+</body>
+</html>
