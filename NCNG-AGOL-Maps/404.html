@@ -1,1 +1,68 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>NCNG Web Map Template Saver</title></head><body><div id="root"></div><script type="module" src="/src/main.tsx"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found — NCNG Web Map Template Saver</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0e1621;
+      color: #fff;
+      text-align: center;
+      padding: 3rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 2rem;
+      color: #ccc;
+    }
+    a.button {
+      background: #0062cc;
+      color: white;
+      padding: 0.75rem 1.25rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    a.button:hover {
+      background: #004a99;
+    }
+    .contact {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+    .contact a {
+      color: #93c5fd;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>404 — Page Not Found</h1>
+  <p>The page you’re looking for doesn’t exist or has been moved.</p>
+  <a class="button" href="/NCNG-AGOL-Maps/">Return to Home</a>
+
+  <div class="contact">
+    Need assistance? Contact us at 
+    <a href="mailto:NGNC-GIS@army.mil">NGNC-GIS@army.mil</a>
+  </div>
+
+  <script>
+    // GitHub Pages SPA redirect fix
+    const pathname = window.location.pathname;
+    if (pathname && pathname !== "/NCNG-AGOL-Maps/" && pathname.startsWith("/NCNG-AGOL-Maps")) {
+      window.location.replace("/NCNG-AGOL-Maps/");
+    }
+  </script>
+</body>
+</html>
